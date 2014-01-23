@@ -1,0 +1,24 @@
+1 qeynos 860 320 -20 200
+2 qeynos 860 320 -20 200
+4 120
+3 qeynos 0 14 31
+4 180
+0
+3 qeynos 14 28 31
+1 erudsxing -1940 -465 -20 64
+2 erudsxing -1940 -465 -20 64
+4 120
+3 erudsxing 0 25 123
+4 200
+3 erudsxing 25 46 92
+1 erudnext -1645 -300 0 64
+2 erudnext -1645 -300 0 64
+4 120
+0
+3 erudnext 0 17 38
+4 60
+3 erudnext 17 32 38
+1 erudsxing 2260 402 -20 192
+2 erudsxing 2260 402 -20 192
+4 120
+3 erudsxing 46 47 95

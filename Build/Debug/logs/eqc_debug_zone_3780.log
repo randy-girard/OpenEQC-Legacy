@@ -1,0 +1,23 @@
+---------------------------------------------
+[01.23. - 18:05:10] Starting Log: logs/eqc_debug_zone_3780.log
+
+[01.23. - 18:05:10] [  DB  ] Using database 'eqclassic' at 'localhost'
+[01.23. - 18:05:10] [SharedMem] Loading Shared Memory Core...
+[01.23. - 18:05:10] [Common] Done.
+
+[01.23. - 18:05:10] [Spell] Loading SP DAT...
+
+[01.23. - 18:05:10] [Spell] Spells loaded from 'spdat.eff'
+
+[01.23. - 18:05:10] [ Zone ] Loading guild and guild ranks...
+
+[01.23. - 18:05:10] [ Zone ] Loading faction data...
+
+[01.23. - 18:05:10] [ Zone ] Loading faction lists...
+
+[01.23. - 18:05:10] [ Zone ] Loading Corpse decay Timers...
+
+[01.23. - 18:05:11] [World ] Connected to worldserver: 127.0.0.1:9000
+
+[01.23. - 18:05:11] [ Zone ] Entering sleep mode.
+

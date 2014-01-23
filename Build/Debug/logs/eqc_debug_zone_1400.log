@@ -1,0 +1,33 @@
+---------------------------------------------
+[01.23. - 18:05:10] Starting Log: logs/eqc_debug_zone_1400.log
+
+[01.23. - 18:05:10] [  DB  ] Using database 'eqclassic' at 'localhost'
+[01.23. - 18:05:10] [SharedMem] Loading Shared Memory Core...
+[01.23. - 18:05:10] [Common] Done.
+
+[01.23. - 18:05:10] [Spell] Loading SP DAT...
+
+[01.23. - 18:05:10] [Spell] Spells loaded from 'spdat.eff'
+
+[01.23. - 18:05:10] [ Zone ] Loading guild and guild ranks...
+
+[01.23. - 18:05:10] [ Zone ] Loading faction data...
+
+[01.23. - 18:05:10] [ Zone ] Loading faction lists...
+
+[01.23. - 18:05:11] [ Zone ] Loading Corpse decay Timers...
+
+[01.23. - 18:05:11] [World ] Connected to worldserver: 127.0.0.1:9000
+
+[01.23. - 18:05:11] [ Zone ] Entering sleep mode.
+
+[01.23. - 18:06:06] [ Zone ] Loading roam boxes...
+
+[01.23. - 18:06:07] [ Zone ] Loading objects...
+
+[01.23. - 18:06:07] [ Zone ] Zone server 'gfaydark' now listening on port 1001
+
+[01.23. - 18:06:07] [ Zone ] Loading NPC's for 'gfaydark'...
+
+[01.23. - 18:06:07] [Client] New client from 127.0.0.1:51844
+

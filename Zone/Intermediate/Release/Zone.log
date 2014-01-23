@@ -1,0 +1,582 @@
+﻿Build started 11/12/2013 10:28:40 PM.
+     1>Project "C:\Users\Jake\Documents\GitHub\eqclassic\Zone\Zone.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching ".\Intermediate\Release\Zone.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../Common/Include /I./Include /I../EQC/Include /I../SharedMemory/Include/ /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D EQC_SHAREDMEMORY /D EMBPERL /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_DEPRECATE /D ZONE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Intermediate\Release\\" /Fd".\Intermediate\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Common\Source\database.cpp ..\Common\Source\DatabaseHandler.cpp ..\Common\Source\GuildDatabase.cpp ..\Common\Source\Item.cpp ..\Common\Source\MiscFunctions.cpp Source\attack.cpp Source\boats.cpp Source\Debug.cpp Source\entity.cpp Source\EntityList.cpp Source\faction.cpp Source\forage.cpp Source\groups.cpp Source\hate_list.cpp Source\loottables.cpp Source\Map.cpp Source\mob.cpp Source\net.cpp nodes.cpp Source\npc.cpp Source\NpcAI.cpp Source\object.cpp Source\petitions.cpp Source\PlayerCorpse.cpp Source\priorityqueue.cpp Source\projectile.cpp Source\spawn2.cpp Source\spawngroup.cpp Source\Tradeskills.cpp Source\watermap.cpp Source\WorldServer.cpp Source\WorldServer_Process.cpp Source\zone.cpp Beg.cpp BindWound.cpp Source\Fishing.cpp Source\InstillDoubt.cpp Source\Mend.cpp Source\SpellBonuses.cpp Source\SpellData.cpp Source\SpellEffects.cpp Source\spells.cpp Source\SpellsHandler.cpp Source\client.cpp Source\Client_Commands.cpp Source\Client_Messaging.cpp Source\Client_Packet.cpp Source\Client_Process.cpp Source\ClientList.cpp Source\guild_process.cpp Include\ZoneGuildManager.cpp Source\ZoneGuildManager_Packets.cpp Source\ZoneGuildManager_Process.cpp Source\ZoneGuildManager_WorldProcess.cpp Source\embparser.cpp Source\embperl.cpp Source\questmgr.cpp Source\perl_perlpacket.cpp Source\perlpacket.cpp Source\perl_client.cpp Source\perl_entity.cpp Source\perl_mob.cpp Source\perl_npc.cpp
+         database.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         DatabaseHandler.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\DatabaseHandler.h(20): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         GuildDatabase.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>c:\users\jake\documents\github\eqclassic\common\include\Database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         Item.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>c:\users\jake\documents\github\eqclassic\common\include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\users\jake\documents\github\eqclassic\common\include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\users\jake\documents\github\eqclassic\common\include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\users\jake\documents\github\eqclassic\common\include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\users\jake\documents\github\eqclassic\common\include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\users\jake\documents\github\eqclassic\common\include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\users\jake\documents\github\eqclassic\common\include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         MiscFunctions.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         attack.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         boats.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         Debug.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         entity.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         EntityList.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         faction.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\../include/database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         forage.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         groups.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         hate_list.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         loottables.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         Map.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         mob.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         net.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         nodes.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         npc.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         Compiling...
+         NpcAI.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         object.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         petitions.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\servertalk.h(96): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\servertalk.h(116): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\servertalk.h(124): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\servertalk.h(132): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\servertalk.h(230): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\servertalk.h(249): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         PlayerCorpse.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         priorityqueue.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         projectile.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         spawn2.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         spawngroup.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         Tradeskills.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         watermap.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         WorldServer.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>c:\users\jake\documents\github\eqclassic\common\include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\users\jake\documents\github\eqclassic\common\include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\users\jake\documents\github\eqclassic\common\include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\users\jake\documents\github\eqclassic\common\include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\users\jake\documents\github\eqclassic\common\include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\users\jake\documents\github\eqclassic\common\include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\users\jake\documents\github\eqclassic\common\include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\servertalk.h(96): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\servertalk.h(116): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\servertalk.h(124): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\servertalk.h(132): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\servertalk.h(230): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\servertalk.h(249): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         WorldServer_Process.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>c:\users\jake\documents\github\eqclassic\common\include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\users\jake\documents\github\eqclassic\common\include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\users\jake\documents\github\eqclassic\common\include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\users\jake\documents\github\eqclassic\common\include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\users\jake\documents\github\eqclassic\common\include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\users\jake\documents\github\eqclassic\common\include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>c:\users\jake\documents\github\eqclassic\common\include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\servertalk.h(96): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\servertalk.h(116): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\servertalk.h(124): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\servertalk.h(132): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\servertalk.h(230): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\servertalk.h(249): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         zone.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         Beg.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         BindWound.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         Fishing.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         InstillDoubt.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         Mend.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         SpellBonuses.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         SpellData.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         Compiling...
+         SpellEffects.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         spells.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         SpellsHandler.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         client.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         Client_Commands.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         Client_Messaging.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         Client_Packet.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         Client_Process.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         ClientList.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         guild_process.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         ZoneGuildManager.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         ZoneGuildManager_Packets.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         ZoneGuildManager_Process.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         ZoneGuildManager_WorldProcess.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         embparser.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         embperl.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Zone\Include\embperl.h(28): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+         questmgr.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         perl_perlpacket.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Zone\Include\embperl.h(28): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+         perlpacket.cpp
+     1>c:\users\jake\documents\github\eqclassic\common\include\GuildNetwork.h(44): warning C4341: 'GuildUnknown' : signed value is out of range for enum constant
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(288): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(489): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(498): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(791): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(861): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1403): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\eq_packet_structs.h(1881): warning C4200: nonstandard extension used : zero-sized array in struct/union
+                 Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Common\Include\database.h(16): fatal error C1083: Cannot open include file: 'mysql.h': No such file or directory
+         perl_client.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Zone\Include\embperl.h(28): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+         Compiling...
+         perl_entity.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Zone\Include\embperl.h(28): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+         perl_mob.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Zone\Include\embperl.h(28): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+         perl_npc.cpp
+     1>C:\Users\Jake\Documents\GitHub\eqclassic\Zone\Include\embperl.h(28): fatal error C1083: Cannot open include file: 'EXTERN.h': No such file or directory
+     1>Done Building Project "C:\Users\Jake\Documents\GitHub\eqclassic\Zone\Zone.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:59.33

@@ -1,0 +1,77 @@
+This was a rewrite of MiniLogin by LethalEncounter designed for use on EQEmulator 0.6.1+ servers.
+(And then updated by Doodman for 0.6.2 on 9/7/2005)
+
+Latest update: 26 May 2005
+
+
+Read the following post fully before asking for support:
+http://www.eqemulator.net/forums/showthread.php?t=16402
+
+
+To start you will need to execute the following mysql queries: 
+
+
+INSERT INTO variables (varname, value, information) VALUES ('LoginType', 'Minilogin', 'Set this to Minilogin to login using a minilogin server :)'); 
+
+alter table account add minilogin_ip varchar(32) not null; 
+
+
+
+Note: The following examples assume you want to use minilogin to play on the account named edgar1898 and you will be logging into it from the same computer your running minilogin on. 
+
+If you want to login with an existing account: 
+1. Put the ip address of the computer your using to login in the minilogin_ip field of the users account you wish to play. 
+
+The SQL code for this is: 
+ 
+update account set minilogin_ip='127.0.0.1' where name='edgar1898'; 
+
+
+If you want to create a new account and login with it: 
+
+1. Insert the new account into the database. (This example also assumes you wish to give the user access to all commands on the server, change the 250 to another level if you dont) 
+
+The SQL code for this is: 
+
+insert into account (name,status, minilogin_ip) values('edgar1898',250,'127.0.0.1'); 
+
+*Hint* Whenever the user connects to minilogin, it will display their ip in the console window, that IP must match the ip you put in the account table. Whenever your doing one of the above steps make sure the ip addresses are the same! 
+
+
+1. Once you have done that download MiniLogin and change your eqhost.txt file to 127.0.0.1:5999 
+You can download it here: 
+http://prdownloads.sourceforge.net/eqemulator/MiniLogin6.1.zip?download 
+
+2. Open your server's LoginServer.ini file and change the loginserver and loginport as follows:  
+loginserver=127.0.0.1 
+loginport=5999 
+
+
+Thats it! You should be able to login and play normally!  
+
+If your world doesnt display something like "Connected to LoginServer: 127.0.0.1:5999" and it does not show up in the server list, make sure your LoginServer.ini file for your server and for MiniLogin (you can use the same on if the server and minilogin is in the same directory) looks similiar to this: 
+
+[LoginServer] 
+loginserver=127.0.0.1 
+loginserver2=newlogin1.eqemulator.net 
+loginport=5999 
+loginport2=5999 
+worldname=Name of server here 
+worldaddress=Your IP Address here 
+locked=false 
+account= 
+password= 
+
+[WorldServer] 
+Defaultstatus= 
+Unavailzone= 
+
+[ChatChannelServer] 
+worldshortname= 
+chataddress= 
+chatport= 
+
+[LoginConfig] 
+ServerMode=MiniLogin 
+ServerPort=5999 
+

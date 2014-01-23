@@ -1,0 +1,33 @@
+﻿Build started 11/12/2013 10:28:38 PM.
+     1>Project "C:\Users\Jake\Documents\GitHub\eqclassic\SharedMemory\SharedMemory.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\SharedMemory.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D SHAREDMEMORY_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Source\DLLMain.cpp Source\SharedMemory.cpp Source\SharedMemoryItems.cpp ..\Common\Source\database.cpp ..\Common\Source\DatabaseHandler.cpp ..\EQC\Sources\EQCException.cpp ..\EQC\Sources\EQCUtils.cpp ..\Common\Source\Item.cpp ..\Common\Source\Logger.cpp ..\Common\Source\MiscFunctions.cpp ..\Common\Source\Mutex.cpp
+         DLLMain.cpp
+     1>Source\DLLMain.cpp(9): fatal error C1083: Cannot open include file: 'SharedMemory.hpp': No such file or directory
+         SharedMemory.cpp
+     1>Source\SharedMemory.cpp(9): fatal error C1083: Cannot open include file: 'EQCUtils.hpp': No such file or directory
+         SharedMemoryItems.cpp
+     1>Source\SharedMemoryItems.cpp(8): fatal error C1083: Cannot open include file: 'database.h': No such file or directory
+         database.cpp
+     1>..\Common\Source\database.cpp(13): fatal error C1083: Cannot open include file: 'errmsg.h': No such file or directory
+         DatabaseHandler.cpp
+     1>..\Common\Source\DatabaseHandler.cpp(9): fatal error C1083: Cannot open include file: 'DatabaseHandler.h': No such file or directory
+         EQCException.cpp
+     1>..\EQC\Sources\EQCException.cpp(13): fatal error C1083: Cannot open include file: 'EQCUtils.hpp': No such file or directory
+         EQCUtils.cpp
+     1>..\EQC\Sources\EQCUtils.cpp(8): fatal error C1083: Cannot open include file: 'Logger.h': No such file or directory
+         Item.cpp
+     1>..\Common\Source\Item.cpp(24): fatal error C1083: Cannot open include file: 'logger.h': No such file or directory
+         Logger.cpp
+     1>..\Common\Source\Logger.cpp(1): fatal error C1083: Cannot open include file: 'Logger.h': No such file or directory
+         MiscFunctions.cpp
+     1>..\Common\Source\MiscFunctions.cpp(9): fatal error C1083: Cannot open include file: 'MiscFunctions.h': No such file or directory
+         Mutex.cpp
+     1>..\Common\Source\Mutex.cpp(9): fatal error C1083: Cannot open include file: 'Mutex.h': No such file or directory
+     1>Done Building Project "C:\Users\Jake\Documents\GitHub\eqclassic\SharedMemory\SharedMemory.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.34

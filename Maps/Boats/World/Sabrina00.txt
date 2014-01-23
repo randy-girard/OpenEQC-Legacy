@@ -1,0 +1,6 @@
+1 erudnext -413 96 0 192
+0
+4 18
+3 erudnext 0 1 0
+4 60
+3 erudnext 1 2 0

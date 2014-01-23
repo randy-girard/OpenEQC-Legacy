@@ -1,0 +1,28 @@
+---------------------------------------------
+[01.23. - 18:04:47] Starting Log: logs/eqc_debug_world_1780.log
+
+[01.23. - 18:04:47] [World ] EQC Alpha Server - World Version : 7347436
+
+[01.23. - 18:04:47] [SharedMem] Loading Shared Memory Core...
+[01.23. - 18:04:48] [World ] Loading guild ranks...
+[01.23. - 18:04:48] [  DB  ] Using database 'eqclassic' at 'localhost'
+[01.23. - 18:04:48] [Common] Done.
+
+[01.23. - 18:04:48] [World ] Loading boats data...
+[01.23. - 18:04:48] [Common] Done.
+
+[01.23. - 18:04:48] [World ] Starting world network...
+[01.23. - 18:04:48] [Common] Done.
+
+[01.23. - 18:04:48] [World ] Truncating active_accounts table...
+[01.23. - 18:04:48] [Common] Done.
+
+[01.23. - 18:04:48] [World ] World server listening on Address : '127.0.0.1' and port : 9000
+
+[01.23. - 18:05:53] [Client] New client from 127.0.0.1:51843
+
+[01.23. - 18:05:53] [  DB  ] Error #1264: Out of range value for column 'lsaccount' at row 1
+
+[01.23. - 18:06:06] [World ] Validating char creation info for 'Btalbik'...
+
+[01.23. - 18:06:06] [Common] SUCCESS
