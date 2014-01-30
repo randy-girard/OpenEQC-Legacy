@@ -18,7 +18,7 @@
 
 // Debug Levels
 #ifndef EQDEBUG
-#define EQDEBUG 3
+#define EQDEBUG 10
 #else
 ////// File/Console options
 // 0 <= Quiet mode Errors to file Status and Normal ignored
@@ -151,7 +151,7 @@ extern EQCLog* LogFile;
 #ifdef _EQDEBUG
 class PerformanceMonitor {
 public:
-	PerformanceMonitor(sint64* ip) {
+	PerformanceMonitor(int64* ip) {
 		p = ip;
 		QueryPerformanceCounter(&tmp);
 	}
@@ -161,7 +161,7 @@ public:
 		*p += tmp2.QuadPart - tmp.QuadPart;
 	}
 	LARGE_INTEGER tmp;
-	sint64* p;
+	int64* p;
 };
 #endif
 #endif

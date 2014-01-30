@@ -1,0 +1,7 @@
+sub EVENT_SAY { 
+if($text=~/Hail/i){
+quest::say("gives a loathsome. unwavering stare upon $name. His features are steely and cold in their disdain. 'Kartis is the place of shadow - the cornerstone of the seed of corruption in this universe. You have no place here as you are. Return to Selia. for you will find nothing of use to you here. If you intend to decipher the purpose of the shadow or interrupt the training of our disciples. then you are grievously mistaken in your cause. We will share nothing with the likes of you in the ways of knowledge. though slowly. if you choose to remain. we shall corrupt and contort you to our will. Even through mere acts of training. you will be fueling the shadow and will become a part of it unwittingly or no.'");
+quest::say("gives a loathsome. unwavering stare upon $name. His features are steely and cold in their disdain. 'Kartis is the place of shadow -- the cornerstone of the seed of corruption in this universe. You have no place here as you are. Return to Selia. for you will find nothing of use to you here. If you intend to decipher the purpose of the shadow or interrupt the training of our disciples. then you are grievously mistaken in your cause. We will share nothing with the likes of you in the ways of knowledge. though slowly. if you choose to remain. we shall corrupt and contort you to our will. Even through mere acts of training. you will be fueling the shadow and will become a part of it unwittingly or no.'"); }
+}
+#END of FILE Zone:poknowledge  ID:202258 -- Arch_Mage_Deidus 
+

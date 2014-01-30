@@ -382,7 +382,7 @@ bool NetConnection::ReadMiniLoginAccounts() {
 			continue;
 		Seperator LineSep(Sep.arg[i]);
 
-		if (LineSep.argnum != 3) {
+		if (LineSep.argnum != 2) {
 			cout << "Error in MiniLoginConfig.ini on line #" << (i+1) << ": Invalid format, should be \'IP username password\'" << endl;
 			continue;
 		}

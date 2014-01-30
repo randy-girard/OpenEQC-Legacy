@@ -3,3 +3,7 @@ logs/*.log
 *.ilk
 *.pdb
 ipch
+*.log
+*.obj
+*.exe
+

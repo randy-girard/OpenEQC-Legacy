@@ -282,16 +282,17 @@ worldresponse_timer->Disable();
 						break;
 					}
 #ifdef MINILOGIN
-					strcpy(account_name, "eqemu");
-					strcpy(account_password, "eqemu");
+					//strcpy(account_name, "eqemu");
+					//trcpy(account_password, "eqemu");
 					// Lookup account info from MiniLoginAccounts.ini
-					if(false)
-					{
+					
 					for (int i=0; i<MaxMiniLoginAccounts; i++) {
 						if (!net.MiniLoginAccounts[i].IP)
+						{
 							cout << "Cant find IP:" << GetIP() << " expected:" << net.MiniLoginAccounts[i].IP << endl;
 							break;
-						if (net.MiniLoginAccounts[i].IP == GetIP()) {
+						}
+						else if (net.MiniLoginAccounts[i].IP == GetIP()) {
 							strcpy(account_name, net.MiniLoginAccounts[i].username);
 							strcpy(account_password, net.MiniLoginAccounts[i].password);
 							struct in_addr  in;
@@ -299,7 +300,12 @@ worldresponse_timer->Disable();
 							cout << "Matched " << inet_ntoa(in) << " to '" << account_name << "'" << endl;
 							break;
 						}
-					}
+						else
+						{
+							cout << "IP Doesn't match: " << GetIP() << " expected:" << net.MiniLoginAccounts[i].IP << endl;
+							break;
+						}
+			
 					}
 
 					APPLAYER *outapp;

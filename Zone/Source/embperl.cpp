@@ -286,7 +286,7 @@ EQC::Common::Log(EQCLog::Debug,CP_QUESTS, "Tying perl output to eqemu logs");
 	{
 		EQC::Common::Log(EQCLog::Error,CP_ZONESERVER, "Warning - commands.pl: %s", err);
 	}
-
+	EQC::Common::Log(EQCLog::Normal,CP_QUESTS, "Perl commands loaded....");
 #endif //EMBPERL_COMMANDS
 
 	in_use = false;
@@ -357,7 +357,7 @@ void Embperl::dosub(const char * subname, const std::vector<std::string> * args,
 {//as seen in perlembed docs
 #if EQDEBUG >= 5
 	if(InUse()) {
-		LogFile->write(EQEMuLog::Debug, "Warning: Perl dosub called for %s when perl is allready in use.\n", subname);
+		LogFile->write(EQCLog::Debug, "Warning: Perl dosub called for %s when perl is allready in use.\n", subname);
 	}
 #endif
 	in_use = true;
@@ -369,7 +369,9 @@ void Embperl::dosub(const char * subname, const std::vector<std::string> * args,
 			{//this should never happen, so if it does, it is something really serious (like a bad perl install), so we'll shutdown.
 				EQC::Common::Log(EQCLog::Error,CP_ZONESERVER, "Fatal error initializing perl: %s", err);
 				
-			}			
+			}
+
+	EQC::Common::Log(EQCLog::Error,CP_ZONESERVER, "We got here.");
 	dSP;                     
 	ENTER;                          /* everything created after here */
 	SAVETMPS;                       /* ...is a temporary variable.   */
@@ -381,16 +383,20 @@ void Embperl::dosub(const char * subname, const std::vector<std::string> * args,
 			XPUSHs(sv_2mortal(newSVpv(i->c_str(), i->length())));
 		}
 	}
+	
 	PUTBACK;                      /* make local stack pointer global */
-	call_pv(subname, mode); /*eval our code*/
+	int result = call_pv(subname, mode); /*eval our code*/
+	
 	SPAGAIN;                        /* refresh stack pointer         */
-	if(SvTRUE(ERRSV))
-	{
-		err = true;
-	}
+	EQC::Common::Log(EQCLog::Error,CP_ZONESERVER, "And now here, result %i, %i", result, mode);
+	//if(SvTRUE(ERRSV))
+	//{
+	//	err = true;
+	//}
+	
 	FREETMPS;                       /* free temp values        */
 	LEAVE;                       /* ...and the XPUSHed "mortal" args.*/
-
+	
 	in_use = false;
 	if(err)
 	{
@@ -406,7 +412,8 @@ void Embperl::eval(const char * code)
 	std::vector<std::string> arg;
 	arg.push_back(code);
 // MYRA - added EVAL & KEEPERR to eval per Eglin's recommendation
-	dosub("my_eval", &arg, G_SCALAR|G_DISCARD|G_EVAL|G_KEEPERR);
+	// Freezo - G_KEEPERR prevents ERRSV from being snt. Removing it
+	dosub("my_eval", &arg, G_SCALAR|G_DISCARD|G_EVAL);
 //end Myra
 }
 

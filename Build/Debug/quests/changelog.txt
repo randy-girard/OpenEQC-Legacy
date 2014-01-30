@@ -1,0 +1,196 @@
+07/29/05
+mwmdragon: Branis_Noolright.pl (freporte) Added
+mwmdragon: Brek_Stolrus.pl (freporte) Added
+mwmdragon: Cartographer_Piri.pl (freporte) Added
+mwmdragon: Jasmine_Yiur.pl (freporte) Added
+mwmdragon: Talym_Shoontar.pl (freporte) Added
+mwmdragon: Gunex_Eklar.pl (freporte) Edited
+mwmdragon: Ikthar_Fireheart.pl (freporte) Edited
+mwmdragon: Imxil_Tbrow.pl (freporte) Edited
+mwmdragon: Innkeep_Paggie.pl (freporte) Edited
+mwmdragon: Innkeep_Rastle.pl (freporte) Edited
+mwmdragon: Jerra_Renlock.pl (freporte) Edited
+mwmdragon: Jyle_Windshot.pl (freporte) Edited
+mwmdragon: Kargek_Redblade.pl (freporte) Edited
+mwmdragon: Konious_Eranon.pl (freporte) Edited
+mwmdragon: Lenka_Stoutheart.pl (freporte) Edited
+mwmdragon: Lunce_Nasin.pl (freporte) Edited
+mwmdragon: Nesin_Tapper.pl (freporte) Edited
+mwmdragon: Nestral_TGaza.pl (freporte) Edited
+mwmdragon: Netuk_Phenzon.pl (freporte) Edited
+mwmdragon: Nexvok_Thirod.pl (freporte) Edited
+
+05/26/05
+mwmdragon: Olunea_Miltin.pl (freporte) Edited
+mwmdragon: Opal_Darkbriar.pl (freporte) Edited
+mwmdragon: Palatos_Kynarn.pl (freporte) Edited
+mwmdragon: Pietro_Zarn.pl (freporte) Edited
+mwmdragon: Quan_Nektogo.pl (freporte) Edited
+mwmdragon: Raltur_Caliskon.pl (freporte) Edited
+mwmdragon: Rolfic_Gohar.pl (freporte) Edited
+mwmdragon: Tovan_Tenlah.pl (freporte) Edited
+mwmdragon: Venox_Tarkog.pl (freporte) Edited
+mwmdragon: Verona_Rankin.pl (freporte) Edited
+
+05/13/05
+mwmdragon: 10155.pl (freporte) Added
+mwmdragon: Beur_Tenlah.pl (freporte) Edited
+mwmdragon: Brutol_Rhaksen.pl (freporte) Edited
+mwmdragon: Elisi_Nasin.pl (freporte) Edited
+mwmdragon: Gregor_Nasin.pl (freporte) Edited
+mwmdragon: Gren_Frikniller.pl (freporte) Edited
+mwmdragon: Grendig.pl (freporte) Edited
+mwmdragon: Harkin_Duskfoot.pl (freporte) Edited
+mwmdragon: Heneva_Jexsped.pl (freporte) Edited
+mwmdragon: Soulbinder_Grunson.pl (freporte) Edited
+mwmdragon: Tohsan_Hallard.pl (freporte) Edited
+mwmdragon: Vesagar_Nekio.pl (freporte) Edited
+mwmdragon: Wenden_Blackhammer.pl (freporte) Edited
+mwmdragon: Xelha_Nevagon.pl (freporte) Edited
+mwmdragon: Zenita_DRin.pl (freporte) Edited
+mwmdragon: Zhem_Xecia.pl (freporte) Edited
+
+
+05/02/05
+mwmdragon: Joshua.pl (freportw) Added
+mwmdragon: Krazen_Loosh.pl (freportw) Added
+mwmdragon: Linadian.pl (freportw) Added
+mwmdragon: Lythe_Songbird.pl (freportw) Added
+mwmdragon: peasant_woman.pl (freportw) Added
+mwmdragon: Taxonomist_Darwin_Grisk.pl (freportw) Added
+mwmdragon: Boomba_the_Big.pl (freportw) Edited
+mwmdragon: Brena_Donyld.pl (freportw) Edited
+mwmdragon: Brina_Foxtripper.pl (freportw) Edited
+mwmdragon: Cain_Darkmoore.pl (freportw) Edited
+mwmdragon: Captain_Hazran.pl (freportw) Edited
+mwmdragon: Dooly_Jonkers.pl (freportw) Edited
+mwmdragon: Guard_Alayle.pl (freportw) Edited
+mwmdragon: Hyrill_Pon.pl (freportw) Edited
+mwmdragon: Janam_Rekish.pl (freportw) Edited
+mwmdragon: Jyle_Windshot.pl (freportw) Edited
+mwmdragon: Klom_Jysun.pl (freportw) Edited
+mwmdragon: Lady_Shae.pl (freportw) Edited
+mwmdragon: Larn_Brugal.pl (freportw) Edited
+mwmdragon: Lorme_Tredore.pl (freportw) Edited
+mwmdragon: Nusk_Treton.pl (freportw) Edited
+mwmdragon: Opal_Darkbriar.pl (freportw) Edited
+mwmdragon: Palon_Deskeb.pl (freportw) Edited
+mwmdragon: Pandos_Flintside.pl (freportw) Edited
+mwmdragon: Pincia_Brownloe.pl (freportw) Edited
+mwmdragon: Ping_Fuzzlecutter.pl (freportw) Edited
+mwmdragon: Plagus_Ladeson.pl (freportw) Edited
+mwmdragon: Puab_Closk.pl (freportw) Edited
+mwmdragon: Raenna_Griff.pl (freportw) Edited
+mwmdragon: Ran_Brownloe.pl (freportw) Edited
+mwmdragon: Rebby_Willend.pl (freportw) Edited
+mwmdragon: Reyia_Beslin.pl (freportw) Edited
+mwmdragon: Romiak_Jusathorn.pl (freportw) Edited
+mwmdragon: Shana_Liskia.pl (freportw) Edited
+mwmdragon: Shintl_Lowbrew.pl (freportw) Edited
+mwmdragon: Sir_Lucan_D-Lere.pl (freportw) Edited
+mwmdragon: Swin_Blackeye.pl (freportw) Edited
+mwmdragon: Tara_Neklene.pl (freportw) Edited
+mwmdragon: Tarsa_Yovar.pl (freportw) Edited
+mwmdragon: Toala_Nehron.pl (freportw) Edited
+mwmdragon: Toxdil.pl (freportw) Edited
+mwmdragon: Ulia_Yovar.pl (freportw) Edited
+mwmdragon: Velan_Torresk.pl (freportw) Edited
+mwmdragon: Yovik_Splegle.pl (freportw) Edited
+
+05/01/05
+mwmdragon: Armorer_Dellin.pl (freportw) Added
+mwmdragon: Driana_Poxsbourne.pl (freportw) Added
+mwmdragon: Exterminator_Qalantir.pl (freportw) Added (Was empty)
+mwmdragon: Ginehl_Wiquar.pl (freportw) Added
+mwmdragon: Glyssa_Sonshaw.pl (freportw) Added
+mwmdragon: Guard_Alayle.pl (freportw) Edited
+mwmdragon: Hemia_Skemner.pl (freportw) Added
+mwmdragon: Hollish_Tnoops.pl (freportw) Added
+
+04/29/05
+mwmdragon: Arinna_Trueblade.pl (freportw)
+
+04/25/05
+Senzo: Exterminator_Sutton.pl (rivervale)
+
+04/19/05
+Reketh: Thurgadin Velious Armor - Beastlord (thurgadina)
+
+04/15/05
+Senzo: Exterminator_Valern.pl (felwithea)
+Senzo: Exterminator_Vin.pl (kaladimb)
+Senzo: Trooper_Mozo.pl (fieldofbone)
+
+03/28/05
+Senzo: Lord_Yelinak.pl (skyshrine)
+Senzo: Karam_Dragonforge.pl (rathemtn)
+ 
+2/24/05
+Kiladiveus: Thurgadin Velious Armor - Warrior (thurgadina)
+Kiladiveus: Thurgadin Velious Armor - Bard (thurgadina)
+Kiladiveus: Velious Custom Helm Quest - (thurgadinb)
+
+2/14/05
+Fixed script for Druid, Shaman, Cleric, monk Thurg armor quest.
+Missing 1 closing quote that can ruin the submission part.
+
+02/05/05
+kiladiveus: Thurgadin Velious Armor - Druid (thurgadina)
+kiladiveus: Thurgadin Velious Armor - Shaman (thurgadina)
+kiladiveus: Thurgadin Velious Armor - Cleric (thurgadina)
+
+1/29/05 
+kiladiveus: fixed faction requirement for Lorekeeper Einar in Thurgadina.
+
+1/25/05
+bUri: Fixed Herald Telcha quest faction (chardok).
+
+1/24/05
+kiladiveus: Thurgadin Velious Armor - Monk (Thurgadina)
+
+1/23/05
+esperanza: qeynos badge quests 1&2
+
+1/20/05
+Eagle: Added Sir Ariam's Bridal Quest (Befallen)
+Eagle: Added Lodizal Shell Sheild Quest (Cobaltscar)
+Eagle: Added Orb of Draconic Energy Quest (Skyshrine)
+
+1/17/05
+Kiladiveus: Shaman Totemic Armor Quest(Lake rathe - Vrynn and Kryalnn)
+
+1/10/05
+FatherNitwit: Merged Muuss's iksar necro skullcap quest work.
+
+1/3/05
+FatherNitwit: soltemple: Darkwood Staff, Staff of Temperate Flux 
+FatherNitwit: everfrost: Tishan's Kilt
+
+1/2/05 
+FatherNitwit: Trueshot longbow quest (all pieces) 
+FatherNitwit: All guildmasters now accept discipline tomes as they should. 
+
+12/19/2004 
+bUri: Sleeper's tomb key quest (necropolis) 
+
+12/18/2004 
+bUri: Ivy Etched quests (kithicor) 
+
+12/17/2004 
+bUri: Temple of Veeshan quests are all in (13 total) 
+bUri: bard, cleric, monk, druid, beastlord, paladin armor quests (Skyshrine) 
+bUri: goblin salts/skins quest (Chardok) 
+
+12/14/2004 
+bUri: Soulbinders (all) - These will work the next server reboot. 
+FatherNitwit: Loaded old perl quests + a bunch of random quests. (not that most of them are useful, but still better than nothing) 
+Total Quests: 1900 
+
+12/13/2004 
+bUri: Fixed crafted quests (southkarana) 
+bUri: Lodizal quest (cobaltscar) 
+bUri: King tormax quests (kael)
+
+Previous:
+many akanon quests, and various others written by Kroeg.
+
