@@ -1,27 +1,24 @@
 EQClassic source code from January 1st, 2010
+
 Requires EverQuest Trilogy client (out of box, no patches)
 
-Required Library Files & Source Includes
------------------------------------
-OpenSSL dll: http://slproweb.com/products/Win32OpenSSL.html
-MySQL 5.1 x86: http://dev.mysql.com/downloads/mysql/5.1.html
-Zlib: http://sourceforge.net/projects/libpng/files/zlib/1.2.3/zlib123-dll.zip/download
-ActivePerl x86: http://www.activestate.com/activeperl/downloads/
+Dependencies
+---
+- MySQL 5.1 (http://dev.mysql.com/downloads/mysql/5.1.html)
+- ActivePerl 5.16 (http://www.activestate.com/activeperl/downloads)
+- OpenSSL (This is bundled with project, in Dependencies folder)
+- zlib (in Dependencies folder)
 
-ActivePerl commands...
-ppm install DBI
-ppm install IO-stringy
+Setup
+---
+You may need to make updates the the location of includes and lib folders for MySQL and ActivePerl if they are not in the default locations:
+- MySQL
+  - C:\Program Files (x85)\MySQL\MySQL Server 5.1\include
+  - C:\Program Files (x85)\MySQL\MySQL Server 5.1\lib
+  - C:\Program Files (x85)\MySQL\MySQL Server 5.1\lib\debug
+- ActivePerl
+  - C:\perl\lib\Core
 
-VS.NET 2010 Includes & Libraries...
-Include files: C:\mysql\include
-Include files: C:\perl\lib\CORE
-Include files: C:\zlib\include
-Library files: C:\mysql\lib\opt
-Library files: C:\perl\lib\CORE
-Library files: C:\zlib\lib
-
-Additional Notes...
-Database files located in db folder.
-LoginServer solution located in LS folder.
-Changes to original source commented with //newage.
-Host eqclassic server by opening MiniLogin.exe, World.exe and Boot5zones.bat
+Database
+---
+Source the files that are in the db folder.
