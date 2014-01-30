@@ -6,4 +6,15 @@ ipch
 *.log
 *.obj
 *.exe
-
+*.dll
+*.tlog
+*.sbr
+*.lib
+*.exp
+*.bsc
+*.manifest
+*.lastbuildstate
+*.idb
+*.pdb
+*.res
+*.rc
