@@ -1,0 +1,8 @@
+2/20/14
+Fixed combat crash
+Fixed newbie monsters kicking
+Fixed newbie wasps being KoS
+Fixed starting items
+Fixed forest drakelings spawning
+Added corpse command
+Changed timer files, might fix cooldowns
