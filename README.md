@@ -18,7 +18,7 @@ Required Files
 
 Setup
 ---
-You may need to make updates the the location of includes and lib folders for MySQL and ActivePerl if they are not in the default locations:
+You may need to make updates to the location of includes and lib folders for MySQL and ActivePerl if they are not in the default locations:
 - MySQL
   - C:\Program Files (x85)\MySQL\MySQL Server 5.1\include
   - C:\Program Files (x85)\MySQL\MySQL Server 5.1\lib
